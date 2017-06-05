@@ -1,0 +1,134 @@
+body {
+  background-color:  #f44336;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 27px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  cursor: pointer;
+  padding: 12px 24px;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+header {
+  padding: 128px 16px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+header h1 {
+  font-size: 64px;
+  line-height: 96px;
+}
+
+.btn, .btn_signup {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 16px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+main {
+  padding: 128px 16px;
+  background-color: white;
+  font-size: 18px;
+}
+main h2 {
+  font-size: 26px;
+  padding: 32px 10px;
+}
+
+iframe {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  left: 30%;
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+
+.jobs {
+  text-align: center;
+  display: block;
+  line-height: 26.4px;
+  margin-bottom: 11px;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.mission_p {
+  line-height: 22.5px;
+  text-align: center;
+}
+
+.sign_up {
+  padding: 128px 16px;
+  background-color: grey;
+  text-align: center;
+  line-height: 28.8px;
+}
+
+.sign_up p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 27px;
+  color: white;
+}
+
+
+
+footer {
+  padding: 128px 16px;
+  text-align: center;
+  background-color: white;
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+footer img {
+  width: 240px;
+  display: inline-block;
+  margin-top: 36px;
+}
