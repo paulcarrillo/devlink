@@ -32,6 +32,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  width: 60px;
 }
 
 li a:hover {
@@ -109,6 +110,52 @@ iframe {
 .sign_up p {
   font-size: 16px;
   padding-top: 10px;
+}
+
+.about_heading {
+  font-size: 32px;
+  display: block;
+  line-height: 38.4px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.story_heading {
+  display: block;
+  font-size: 22px;
+  line-height: 26.4px;
+  margin-bottom: 11px;
+  margin-top: 22px;
+}
+
+.letter_heading {
+  display: block;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.founder p {
+  display: block;
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+.founder_space {
+  margin-bottom: 30px;
+}
+
+strong {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#googleMap {
+  display: block;
+  max-width: 900px;
+  height: 400px;
+  margin: 0px auto 10px;
 }
 
 h3 {

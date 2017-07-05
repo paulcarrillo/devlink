@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="styles/devstyle.css">
 </head>
-</body>
+<body>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -18,77 +18,89 @@
   </nav>
 
   <div class="first">
-    <h1>Developers Name</h1>
-    <p>Developer</p>
-    <p>Salt Lake City,USA</p>
-    <p>ex@gmai.com</p>
-    <a>801-999-1111<a>
-    <hr>
+    <div class="container_dev">
+      <img src="images/dev.jpg" />
+      <h1 class="bottomleft">Paul Carrillo</h1>
+  </div>
 
-    <p>Skills</p>
-    <p>JavaScript</p>
-    <p>JavaScript</p>
-    <p>JavaScript</p>
-    <p>JavaScript</p>
+  <div class="skills_dev">
+    <p id="lblTitle">Developer Test</p>
+    <p id="lblLocation">Salt Lake City, USA</p>
+    <p>paulcarrillo05@gmail.com</p>
+    <p>801-999-1111<p>
+    <hr>
+    <p class="skills_heading">Skills</p>
+  <div>
+    <p>HTML</p>
+    <p class="transform">50%</p>
+    <p>CSS</p>
+    <p class="transform">50%</p>
+    <p>JS</p>
+    <p class="transform">50%</p>
+    <p>ReactJS</p>
+    <p class="transform">50%</p>
+  </div>
     <br>
 
-    <p>Languagues</p>
+    <p class="skills_heading">Languagues</p>
     <p>English</p>
+    <p class="transform"></p>
     <p>Spanish</p>
+    <p class="transform"></p>
+  </div>
   </div>
 
   <div class="second">
     <div>
       <h2>Work Experience</h2>
-      <p>Front End Developer / DevNano</p>
-      <p>Jan 2017 - Current</p>
+      <p class="work">Front End Developer / DevNano</p>
+      <p class="date">Jan 2017 - Current</p>
       <p>Currently still attending DevNano every Tuesday night!</p>
     </div>
-    <hr>
 
     <div>
-      <p>Web Developer / something.com</p>
-      <p>Mar 2012 - Dec 2014</p>
+      <p class="work">Web Developer / something.com</p>
+      <p class="date">Mar 2012 - Dec 2014</p>
       <p>Something was a great company to work for they had great food. And I really enjoyed
       riding my scooter around the office<p>
     </div>
 
     <div>
-      <p>Graphic Designer / designstuff.com</p>
-      <p>Jun 2012 - March 2012</p>
+      <p class="work">Graphic Designer / designstuff.com</p>
+      <p class="date">Jun 2012 - March 2012</p>
       <p>I pretty much designed stuff here, it was really cool.</p>
     </div>
-  </div>
 
-  <div class="third">
     <div>
       <h3>Education</h3>
-      <p>DevNano.com</p>
-      <p>May 2017 - Current</p>
+      <p class="work">DevNano.com</p>
+      <p class="date">May 2017 - Current</p>
       <p>Web Development! All I need to know in one place</p>
       <hr>
     </div>
 
     <div>
-      <p>London Business School</p>
-      <p>2013 - 2015</p>
+      <p class="work">London Business School</p>
+      <p class="date">2013 - 2015</p>
       <p>Master Degree</p>
       <hr>
     </div>
 
     <div>
-      <p>School of Coding</p>
-      <p>2010 - 2013</p>
+      <p class="work">School of Coding</p>
+      <p class="date">2010 - 2013</p>
       <p>Bachelors Degree</p>
     </div>
+    <script>
+      var data = {title: "CTO", location: "Springville"};
 
-    <footer>
-      <p>Find me on social media<p>
-    </footer>
-
-
+      document.getElementById("lblTitle").value(data.title);
+    </script>
   </div>
 
+  <footer>
+    <p>Find me on social media</p>
+  </footer>
 
 </body>
 </html>

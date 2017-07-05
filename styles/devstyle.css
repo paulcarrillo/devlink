@@ -1,10 +1,11 @@
 body {
-  background-color:  #f44336;
+  background-color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
 
 nav {
+  background-color:  #f44336;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -31,8 +32,90 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  width: 60px;
 }
 
 li a:hover {
   background-color: white;
+}
+
+
+.second, .first {
+  display: block;
+  float: left;
+}
+
+.container_dev {
+  position: relative;
+}
+
+.skills_dev {
+  display: block;
+  font-size: 15px;
+  line-height: 22.5px;
+  padding: 0.15px 16px;
+}
+
+.skills_heading {
+  font-size: 18px;
+}
+
+
+.transform  {
+  height: 18px;
+  background-color: #f44336;
+  transition: width 1s;
+  width: 100px;
+  text-align: center;
+  color: white;
+}
+
+.transform:hover {
+  width: 300px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2, h3 {
+  font-size: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+.work {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 10px 0px 10px 0px;
+}
+
+.date {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0px 10px 0px;
+}
+
+
+footer {
+  clear: left;
+  display: block;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  height: 126px;
+  padding-top: 15px;
+  margin-top: 15px;
 }

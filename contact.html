@@ -3,10 +3,10 @@
 <head>
   <title>DevLink | Contact</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <h1>Contact</h1>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -16,5 +16,74 @@
       <li><a href="sign.html">Sign in</a></li>
     </ul>
   </nav>
+
+  <header>
+    <h1>CONTACT US</h1>
+    <p>1-801-753-0919</p>
+  </header>
+
+  <main>
+  <div>
+    <h2>CALL OR VISIT</h2>
+    <div id="googleMap"></div>
+    <p>2801 N Thanksgiving Way, STE 150
+    <br>
+    Lehi, UT 84043
+    <br>
+    801-753-0919
+    </p>
+    <p><strong>Class Schedule</strong>
+    <br>
+    Option 1: Tuesday/ Thursday: 5:00PM – 6:30PM (Fundamentals of Web Programming I)
+    <br>
+    Option 2: Tuesday/ Thursday: 6:30PM – 8:00PM (Fundamentals of Computer Programming I)
+    </p>
+    <p><strong>Office Hours:<strong>
+    <br>
+    Monday-Friday: 9:00AM – 5:00PM
+    <br>
+    Saturday: Closed
+    <br>
+    Saturday: Closed
+    </p>
+    <h3>Email</h3>
+    <p><strong>General Inquiries</strong>
+    <br>
+    info@devnano.com
+    </p>
+    <p><strong>Office Manager</strong>
+    <br>
+    Domonique Stephan
+    <br>
+    dom@devnano.com
+    </p>
+  </div>
+  </main>
+
+  <div class="sign_up">
+    <h3>START CONNECTING NOW!</h3>
+    <p>Sign up and stay connected with DevLink</p>
+    <button class="btn_signup">SIGN UP</button>
+  </div>
+
+  <footer>
+    <p>DEVNANO, 2801 N THANKSGIVING WAY SUITE 150, LEHI, UT, 84043. USA. </p>
+    <a href="mailto:info@devnano.com">INFO@DEVNANO.COM</a><br />
+    <a href="https://www.devnano.com"><img src="images/devnano.png" /></a>
+  </footer>
+
+  <script>
+  function myMap() {
+  var mapProp= {
+      center:new google.maps.LatLng(40.422982, -111.883424),
+      zoom:12,
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  }
+  </script>
+
+  
+
+
 </body>
 </html>
